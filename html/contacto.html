@@ -1,91 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/9177750629.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../imagenes/logodelta.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
+
 <body>
-    
-    <div class="contactosgrid"> 
 
-    
-    <header class="gridcontactos">
-        <div class="container">
-        <img src="../imagenes/logodelta.png" alt="foto del logo de la empresa" class="tamaño-del-logo" >
+    <div class="contactosgrid">
 
-       <h1 id="delta" class="tamaño-del-nombre" >  Delta Programacion   </h1>
-        <nav>
-            <div class="containericono">
 
-                <a href="" class="iconoburger"><i class="fa-regular fa-align-justify displayhmtl"></i></a></div>
-        <ul>
-            <li>  <a href="inicio.html"> Inicio </a> </li>
-            <li>  <a href="sobrenosotros.html"> Sobre nosotros  </a>  </li>
-            <li> <a href="servicios.html"> Servicios </a>  </li>
-            <li> <a href="portafolio.html">  Portafolio </a> </li>
-            <li>  <a href="contacto.html"> Contacto   </a> </li>
-         
-            </ul>
-        </div>
-      </nav>
- 
-    </header> 
-    <main class="contactosmain">
- 
-    <div class="container-central" >  
-        <form id="form" action=""  > 
-            <div class="container-contacto" > 
-            <label for="nombreyapellido" class="nombre"> 
-                Nombre y Apellido
-            </label>
-            <input  type= "text" placeholder="Fulanito Mengano" id="nombreyapellido" required >   
-            
-           <label for="Correo" class="correo" >
-               Correo
-           </label>
-           <input type= "text" placeholder="abc@gmail.com" id="correo"  required >   
+        <header class="gridcontactos">
+            <div class="container">
+                <img src="../imagenes/logodelta.png" alt="foto del logo de la empresa" class="tamaño-del-logo">
 
-           <label for="telefono" class="telefono" >
-               Telefono
-           </label>
-           <input type= "text" placeholder="123456789" id="telefono"required >  
+                <h1 id="delta" class="tamaño-del-nombre"> Delta Programacion </h1>
+                <nav>
+                    <div class="containericono">
 
-            <textarea value="a" placeholder="Escribe aqui tu Mensaje" required name="" id="" cols="30" rows="10" class="mensaje" ></textarea> 
+                        <a href="" class="iconoburger"><i class="fa-regular fa-align-justify displayhmtl"></i></a></div>
+                    <ul>
+                        <li> <a href="inicio.html"> Inicio </a> </li>
+                        <li> <a href="sobrenosotros.html"> Sobre nosotros </a> </li>
+                        <li> <a href="servicios.html"> Servicios </a> </li>
+                        <li> <a href="portafolio.html"> Portafolio </a> </li>
+                        <li> <a href="contacto.html"> Contacto </a> </li>
 
-        <input type="submit" value="enviar" class="enviar" >
+                    </ul>
+            </div>
+            </nav>
+
+        </header>
+        <main class="contactosmain wow animate__fadeIn ">
+
+            <div class="container-central">
+                <form id="form" action="">
+                    <div class="container-contacto">
+                        <label for="nombreyapellido" class="nombre">
+                            Nombre y Apellido
+                        </label>
+                        <input type="text" placeholder="Fulanito Mengano" id="nombreyapellido" required>
+
+                        <label for="Correo" class="correo">
+                            Correo
+                        </label>
+                        <input type="text" placeholder="abc@gmail.com" id="correo" required>
+
+                        <label for="telefono" class="telefono">
+                            Telefono
+                        </label>
+                        <input type="text" placeholder="123456789" id="telefono" required>
+
+                        <textarea value="a" placeholder="Escribe aqui tu Mensaje" required name="" id="" cols="30"
+                            rows="10" class="mensaje"></textarea>
+
+                        <input type="submit" value="enviar" class="enviar">
+                    </div>
+                </form>
+
+            </div>
+
+        </main>
+
+
+        <footer class="contactosfooter">
+            <div>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram icono-ig" title="Instagram"></i> </a>
+
+                <a href="https://github.com/" target="_blank">
+                    <i class="fa-brands fa-github icono-gh" title="Github"></i> </a>
+
+
+                <a href="https://www.linkedin.com/feed/" target="_black">
+                    <i class="fa-brands fa-linkedin icono-lk" title="Linkedin"> </i> </a>
+
+                <a href="https://web.whatsapp.com/" target="_black">
+                    <i class="fa-brands fa-whatsapp icono-wsp" title="WhastApp"></i></a>
+            </div>
+        </footer>
+
     </div>
-        </form>
 
-    </div>
-
-    </main>
-   
-    
-   <footer class="contactosfooter"> 
-    <div>
-    <a href="https://www.instagram.com/" target="_blank">
-        <i class="fa-brands fa-instagram icono-ig" title="Instagram" ></i> </a>
-
-    <a href="https://github.com/" target="_blank"> 
-        <i class="fa-brands fa-github icono-gh" title="Github" ></i>  </a>  
-
-   
-    <a href="https://www.linkedin.com/feed/" target="_black">
-        <i class="fa-brands fa-linkedin icono-lk" title="Linkedin" >  </i>  </a> 
-
-  <a href="https://web.whatsapp.com/" target="_black" > 
-      <i class="fa-brands fa-whatsapp icono-wsp" title="WhastApp"></i></a>
-    </div>
-   </footer>
-
-
-</div>
-
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
+
 </html>
