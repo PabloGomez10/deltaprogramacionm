@@ -45,7 +45,10 @@ body {
 
 }
 
-ul {
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;;
+}
+/*ul {
     display: flex;
     list-style: none;
 
@@ -67,13 +70,13 @@ ul li a:hover {
     text-decoration: underline;
     text-shadow: none;
 }
-
+*/
 a {
-    color: black;
+    color: white
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     color: #5d7372;
-    text-shadow: 2px 2px black;
+    text-decoration: none !important;
 }
 
 .icono-ig {
@@ -116,7 +119,7 @@ footer {
     align-content: center;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 500px;
 }
 
 #nosotros {
@@ -299,10 +302,10 @@ index y inicio
 */
 
 @media (max-width: 280px) {
-    nav ul {
+    /*nav ul {
         display: none;
         
-    }
+    }*/
 
     .tamaño-del-nombre {
         font-size: 20px;
@@ -483,14 +486,14 @@ index y inicio
         color: white;
         text-shadow: 2px 2px black;
     }
-    a {
+    /*a {
         color: black;
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
         color: #5d7372;
         text-shadow: 2px 2px black;
         padding-left: 50px;
-    }
+    }*/
 }
 
 @media (max-width: 798px) and (min-width: 450px) {
@@ -777,13 +780,19 @@ background: linear-gradient(currentColor, currentColor);
 
 
 ul li a:hover {
-
-    color: black !important;
-
-    ;
+color: black;
 
     background-size: 100% 2px;
 
 
 
 }
+
+.navLink {
+    display: block;
+    padding: .5rem 1rem;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+  }
