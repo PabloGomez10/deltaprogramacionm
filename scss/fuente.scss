@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap');
+
+.Letra {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 55%;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.Letra-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 65%;
+    color: white;
+    text-shadow: 1.2px 1.2px black;
+}
+
+
+.mensaje {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.Letra-subnav {
+    font-size: 5vh;
+    color: #620303;
+    text-shadow: 1.5px 1.5px #171515;
+}
+
+.sobrenosotros {
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}

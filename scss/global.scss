@@ -1,0 +1,35 @@
+body {
+    min-height: 100vh;
+    background-image: url(../imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+html {
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.Card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0.616);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    color: aliceblue;
+}

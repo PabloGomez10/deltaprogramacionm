@@ -1,0 +1,36 @@
+.navbar-light{
+    .navbar-nav{
+        .show>.nav-link{
+            color: rgba(255, 255, 255, 0.9) !important;
+        } 
+    }
+}
+
+
+.navLink {
+    display: block;
+    padding: .5rem 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    li{
+        a{
+                background: linear-gradient(currentColor, currentColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition-timing-function: ease-out;
+                transition-delay: .2s;
+                transition: background-size .3s;
+                &:hover{
+                color: black;
+                background-size: 100% 2px;
+            }
+        }
+    }
+}
+
