@@ -1,0 +1,6 @@
+linea 8: <meta name="description" content="Desarrollo web- Creamos tu sitio web">
+linea 9: <meta name="keywords" content="Desarrollo web, diseño web, HTML, CSS, SASS, BOOTSTRAP">
+linea 10: <meta name="author" content="Delta Programacion">
+linea 11:  <meta name="copyright" content="Delta Programacion 2022">
+
+*en los html tienen la misma linea*

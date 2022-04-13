@@ -34,16 +34,16 @@ html {
   color: aliceblue; }
 
 .Letra {
-  margin-top: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
   text-align: center;
   width: 55%;
   color: white;
   text-shadow: 2px 2px black; }
 
 .Letra-nav {
-  margin-top: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
   text-align: center;
   width: 65%;
   color: white;
@@ -91,21 +91,20 @@ ul li a {
     color: black;
     background-size: 100% 2px; }
 
+.fontIcon, .icono-ig, .icono-gh, .icono-lk, .icono-wsp {
+  font-size: 300%; }
+
 .icono-ig {
-  font-size: 300%;
   color: #E1306C; }
 
 .icono-gh {
-  font-size: 300%;
   color: #171515; }
 
 .icono-lk {
-  font-size: 300%;
   color: #3f729b; }
 
 .icono-wsp {
   background-color: none;
-  font-size: 300%;
   color: #00bb2d; }
 
 footer {
