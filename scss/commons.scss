@@ -1,0 +1,13 @@
+
+//map
+$text-shadow:(
+    //"key"
+    "Letra":2px 2px black,
+     "LetraNav":1.2px 1.2px black,
+);
+@mixin mb-mt ($mb,$mt) {
+    margin-bottom: $mb;
+    margin-top: $mt;
+   
+}
+

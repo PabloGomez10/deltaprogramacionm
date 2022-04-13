@@ -1,21 +1,24 @@
-.icono-ig {
+.fontIcon{
     font-size: 300%;
+}
+.icono-ig {
+    @extend .fontIcon;
     color: #E1306C;
 }
 
 .icono-gh {
-    font-size: 300%;
+   @extend .fontIcon;
     color: #171515;
 }
 
 .icono-lk {
-    font-size: 300%;
+    @extend .fontIcon;
     color: rgb(63, 114, 155);
 }
 
 .icono-wsp {
     background-color: none;
-    font-size: 300%;
+    @extend .fontIcon;
     color: #00bb2d;
 }
 
