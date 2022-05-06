@@ -1,0 +1,70 @@
+.error {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+}
+
+.homero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.pagina h1,
+h2 {
+    font-size: 3vw !important;
+    overflow-y: hidden !important;
+}
+
+.color {
+    color: #fff;
+    background-color: #0d99fd !important;
+    border-color: #000000 !important;
+}
+
+
+
+@media (max-width: 280px) {
+    .pagina h1, h2 {
+        width: 70vw;
+        font-size: 15px !important;
+        padding-right: 100px;
+    }
+
+    .boton{
+        font-size: 4vw !important;
+        width: 22vw;
+        height: 5vh;
+        overflow-y: hidden !important;
+    }
+}
+
+@media (max-width: 342px)  and (min-width: 281px){
+    
+    .pagina h1,h2 {
+        width: 60vw;
+        font-size: 15px !important;
+        padding-right: 100px;
+    
+}
+
+@media (max-width: 400px)  and (min-width: 343px){
+    
+    .pagina h1,h2 {
+        width: 200vw !important;
+        font-size: 20vw !important;
+        padding-right: 100px;
+}

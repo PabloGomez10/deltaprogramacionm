@@ -1,32 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap');
 
 .Letra {
-   // margin-top: 10px;
-   // margin-bottom: 10px;
    @include mb-mt(10px,10px);
     text-align: center;
-    width: 55%;
+    width: none;
     color: white;
     text-shadow: map-get($map:$text-shadow , $key:"Letra" );
 }
 
 .Letra-nav {
-    //margin-top: 10px;
-    //margin-bottom: 10px;
     @include mb-mt(10px,10px);
     text-align: center;
-    width: 65%;
+    width: 8vw;
     color: white;
-    text-shadow: map-get($map:$text-shadow , $key: "LetraNav" );
 }
-
 
 .mensaje {
     color: rgba(0, 0, 0, 0.5)
 }
 
 .Letra-subnav {
-    font-size: 5vh;
+    font-size: 1.5vw;
     color: #620303;
     text-shadow: 1.5px 1.5px #171515;
 }
@@ -41,4 +35,8 @@
     justify-content: center;
     align-items: center;
     height: 500px;
+}
+a[href="404.html"]{
+    margin-top: 10px ;
+    text-align: center;
 }

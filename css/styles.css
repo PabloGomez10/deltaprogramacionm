@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap");
 body {
   min-height: 100vh;
-  background-image: url(../imagenes/fondo2.jpg);
+  background-image: url(../imagenes/fondo2.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -33,11 +33,14 @@ html {
   border-radius: 0.25rem;
   color: aliceblue; }
 
+.height-main {
+  height: 1000px; }
+
 .Letra {
   margin-bottom: 10px;
   margin-top: 10px;
   text-align: center;
-  width: 55%;
+  width: none;
   color: white;
   text-shadow: 2px 2px black; }
 
@@ -45,15 +48,14 @@ html {
   margin-bottom: 10px;
   margin-top: 10px;
   text-align: center;
-  width: 65%;
-  color: white;
-  text-shadow: 1.2px 1.2px black; }
+  width: 8vw;
+  color: white; }
 
 .mensaje {
   color: rgba(0, 0, 0, 0.5); }
 
 .Letra-subnav {
-  font-size: 5vh;
+  font-size: 1.5vw;
   color: #620303;
   text-shadow: 1.5px 1.5px #171515; }
 
@@ -67,6 +69,10 @@ html {
   justify-content: center;
   align-items: center;
   height: 500px; }
+
+a[href="404.html"] {
+  margin-top: 10px;
+  text-align: center; }
 
 .navbar-light .navbar-nav .show > .nav-link {
   color: rgba(255, 255, 255, 0.9) !important; }
@@ -118,7 +124,7 @@ footer {
 .animate__fadeIn {
   animation-duration: 2s; }
 
-img[src="../imagenes/youtubelogo.png"] {
+img[src="../imagenes/youtubelogo.webp"] {
   height: 157.77px; }
 
 @media (max-width: 280px) {
@@ -137,8 +143,10 @@ img[src="../imagenes/youtubelogo.png"] {
     justify-content: flex-start;
     height: 300px;
     align-items: center; }
-  .height-main {
-    height: 1000px; } }
+  .Letra-subnav {
+    font-size: 6.5vw;
+    color: #620303;
+    text-shadow: 1.5px 1.5px #171515; } }
 
 @media (max-width: 449px) and (min-width: 281px) {
   nav ul {
@@ -157,7 +165,11 @@ img[src="../imagenes/youtubelogo.png"] {
     align-content: center;
     justify-content: flex-start;
     height: 300px;
-    align-items: center; } }
+    align-items: center; }
+  .Letra-subnav {
+    font-size: 5.5vw;
+    color: #620303;
+    text-shadow: 1.5px 1.5px #171515; } }
 
 @media (max-width: 798px) and (min-width: 450px) {
   .sobrenosotros {
@@ -169,9 +181,17 @@ img[src="../imagenes/youtubelogo.png"] {
     align-content: center;
     justify-content: flex-start;
     height: 300px;
-    align-items: center; } }
+    align-items: center; }
+  .Letra-subnav {
+    font-size: 3.6vw;
+    color: #620303;
+    text-shadow: 1.5px 1.5px #171515; } }
 
 @media (max-width: 853px) and (min-width: 799px) {
   .sobrenosotros {
     flex-wrap: nowrap;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .Letra-subnav {
+    font-size: 2.5vw;
+    color: #620303;
+    text-shadow: 1.5px 1.5px #171515; } }
